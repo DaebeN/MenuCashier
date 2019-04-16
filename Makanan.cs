@@ -3,20 +3,20 @@ namespace responsi
 {
     public class Makanan
     {
-        private Foods _foods;
+        private Dishes _dishes;
 
         public Makanan()
         {
         }
 
-        public Makanan(Foods _foods)
+        public Makanan(Dishes _dishes)
         {
-            this._foods = _foods;
+            this._dishes = _dishes;
         }
 
         public void PreSales()
         {
-            Console.WriteLine(_foods.Info());
+            Console.WriteLine(_dishes.Info());
         }
     }
 }

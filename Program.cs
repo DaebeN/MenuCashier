@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace uts
+namespace responsi
 {
     class MainClass
     {
@@ -24,8 +24,8 @@ namespace uts
                     Console.WriteLine("Agregasi");
 
                     Dishes dishes = new Dishes();
-                    Transaction transaction = new Transaction(dishes);
-                    transaction.PreSales();
+                    Makanan makanan = new Makanan(dishes);
+                    makanan.PreSales();
 
                     Console.ReadKey();
                     break;
@@ -34,9 +34,9 @@ namespace uts
                 {
                     Console.WriteLine("Komposisi");
 
-                    Transaction2 transaction2 = new Transaction2();
-                    transaction2.PreSales();
-                    transaction2.ListDish();
+                    Minuman minuman = new Minuman();
+                    minuman.PreSales();
+                    minuman.ListDish();
 
                     Console.ReadKey();
                     break;
@@ -46,8 +46,8 @@ namespace uts
                     Console.WriteLine("Dependensi");
 
                     Dishes dishes = new Dishes();
-                    Transaction3 transaction3 = new Transaction3();
-                    transaction3.PreSales(dishes);
+                    Lain lain = new Lain();
+                    lain.PreSales(dishes);
 
                     Console.ReadKey();
                     break;

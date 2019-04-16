@@ -1,7 +1,7 @@
 ﻿using System;
 namespace responsi
 {
-    public class Lainlain
+    public class Lain
     {
         public void PreSales(Dishes dishes)
         {

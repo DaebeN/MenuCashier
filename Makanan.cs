@@ -1,5 +1,5 @@
 ﻿using System;
-namespace uts
+namespace responsi
 {
     public class Makanan
     {
